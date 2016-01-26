@@ -55,16 +55,6 @@ module.exports = _.merge({
             api_key: 'apikeytest'
         }
          */
-        /*
-         * You should also add your providers to env.js
-         * Example:
-        providers: {
-            github: {
-                access_token: 'abc123',
-                username: 'foo'
-            }
-        }
-         */
     }
     , data: {
         local_test_step: {
@@ -72,8 +62,8 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                list_id : '83f21eba4b',
+                subscriber_hash: '75f73803e16f588696caeb51b63cdc09'
             }
         }
     }

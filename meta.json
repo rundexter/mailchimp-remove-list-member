@@ -5,22 +5,26 @@
     //Required. Inputs the module expects.
     "inputs": [
         //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "list_id",
+            "title":"List ID"
+        },
+        {
+            "id": "subscriber_hash",
+            "title":"Subscriber Hash"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
       //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "success",
+            "title":"Success"
         }
-      */
     ],
-    "title": "Mailchimp - Remove List Member" /* Required.A display name for the module */
+    "providers": [{
+        "name": "mailchimp "
+    }],
+    "icon": "dex-mailchimp",
+    "title": "Mailchimp Remove List Member" /* Required.A display name for the module */
 }
